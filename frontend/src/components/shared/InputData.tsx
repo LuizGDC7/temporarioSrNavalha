@@ -11,7 +11,7 @@ interface inProps{
 
 export default function InputData({description, placeholder} : inProps){
     return (
-        <div className="flex items-start ">
+        <div className="flex flex-col items-start ">
             <p>{description}</p>
             <input type="text" placeholder={placeholder}/>
         </div>
